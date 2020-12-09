@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/echarts.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <div class="container"> 
+
+        <!-- 头部 -->
+        <div class="header">
+            <!-- 左边部分 -->
+            <div class="left-nav">
+                <div class="logo">LoGo</div>
+            </div>
+
+            <!-- 右边部分 -->
+            <div class="right-nav">
+                <div class="icon">
+                    <span class="iconfont icon-lingdang"></span>
+                    <span class="iconfont icon-shezhi"></span>
+                </div>
+                <div class="logo">Log Out</div>
+            </div>
+            
+        </div>
+
+        <!-- 主体 -->
+        <div class="main">
+            <!-- 第一部分 -->
+            <div class="part-one">
+                <div class="left-title">
+                    <span class="top">Audience Overview</span>
+                    <span class="bottom">Rosevill,CA</span>
+                </div>
+                <div class="right-btn" id="slider">
+                    <div id="0">DASHBOARD</div>
+                    <div id="1">PROJECTS</div>
+                    <div id="2">CALENDAR</div>
+                    <div id="3">MAILBOX</div>
+                    <div id="4">SETTINGS</div>
+                </div>
+            </div>
+
+            <!-- 第二部分 -->
+            <div class="part-two">
+                <div class="slide-box">
+                    <div class="slide-container">
+                        <div class="wrap" style="left: 0;">
+                            <img src="./images/5.jpg" alt="">
+                            <img src="./images/1.jpg" alt="">
+                            <img src="./images/2.jpg" alt="">
+                            <img src="./images/3.jpg" alt="">
+                            <img src="./images/4.jpg" alt="">
+                            <img src="./images/5.jpg" alt="">
+                            <img src="./images/1.jpg" alt="">
+                        </div>
+                        <div class="buttons">
+                            <span ></span>
+                            <span ></span>
+                            <span ></span>
+                            <span ></span>
+                            <span ></span>
+                        </div>
+                        <a href="javascript:;" class="arrow arrow_left">&lt;</a>
+                        <a href="javascript:;" class="arrow arrow_right">&gt;</a>
+                    </div>
+                </div>
+                <div class="show-board">
+                    <div class="board-top">
+                        <span class="bt-spn">Support Requests</span>
+                        <div class="bt-btn">View All</div>
+                    </div>
+                    <div class="board-bottom">
+                        <dl>
+                            <dt>TIME</dt>
+                            <dd>9.45pm</dd>
+                            <dd>9.45pm</dd>
+                        </dl>
+                        <dl>
+                            <dt>USERNAME</dt>
+                            <dd>9.45pm</dd>
+                            <dd>9.45pm</dd>
+                        </dl>
+                        <dl>
+                            <dt>STATUS</dt>
+                            <dd>
+                                <div>solved</div>
+                            </dd>
+                            <dd>
+                                <div>solved</div>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 第三部分 -->
+            <div class="part-three">
+                <div class="curve-box">
+                    <div class="curve-text"><span>曲线数据图展示</span></div>
+                    <div id="curve"></div>
+                </div>
+            </div>
+
+            <!-- 第四部分 -->
+            <div class="part-four">
+                <div class="pie-box">
+                    <div class="pie-text">饼状图数据展示</div>
+                    <div id="pie"></div>
+                </div>
+                <div class="bar-box">
+                    <div class="bar-text">柱状图数据展示</div>
+                    <div id="bar"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 底部 -->
+        <div class="footer">
+            <div class="ft-box">
+                <div class="logo foo">Log Out</div>
+                <dl>
+                    <dl>NEWS</dl>
+                    <dl>CHAINELS</dl>
+                    <dl>OVERVIEW</dl>
+                    <dl>TIMELNE</dl>
+                </dl>
+                <dl>
+                    <dl>SPORT</dl>
+                    <dl>CULTURE</dl>
+                    <dl>NATRUE</dl>
+                    <dl>MUSIC</dl>
+                </dl>
+                <dl>
+                    <dl>WEATHER</dl>
+                    <dl>AUTO</dl>
+                    <dl>LOACL</dl>
+                    <dl>SHOP</dl>
+                </dl>
+                <dl>
+                    <dl>PUTRUE</dl>
+                    <dl>FOOD</dl>
+                    <dl>EARTH</dl>
+                    <dl>TV</dl>
+                </dl>
+                <dl>
+                    <dl>TRAVEL</dl>
+                    <dl>RADIO</dl>
+                </dl>
+
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./js//index.js"></script>
+<script src="./js//graph.js"></script>
+</html>
